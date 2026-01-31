@@ -12,7 +12,6 @@ const Home = () => {
         <Hero />
         <Demo />
         <About />
-        <SplitPane />
     </div>
   )
 }
