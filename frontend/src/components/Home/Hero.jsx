@@ -1,4 +1,5 @@
 import React from 'react';
+import HeroImg from '../../assets/hero-img.png'
 
 const Hero = () => {
   return (
@@ -55,7 +56,7 @@ const Hero = () => {
           <div className="hidden lg:flex flex-col items-center justify-center">
             <div className="relative w-full">
               <img 
-                src="/src/assets/hero-img.png" 
+                src={HeroImg} 
                 alt="AI Resume Builder Demo" 
                 className="w-full h-auto object-cover"
               />
