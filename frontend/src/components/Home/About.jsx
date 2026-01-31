@@ -31,16 +31,16 @@ function Landing() {
   );
 
   return (
-    <div className="min-h-screen bg-linear-to-br from-blue-50 via-purple-50 to-pink-50 flex flex-col items-center justify-center px-6 py-20 mt-40">
+    <div className="min-h-screen bg-slate-50 flex flex-col items-center justify-center px-6 py-20 mt-40">
       {/* Badge Container */}
       <div className="flex gap-4 mb-8">
-        <span className="px-4 py-2 bg-purple-100 text-purple-700 rounded-full text-sm font-medium">
+        <span className="px-4 py-2 border border-slate-200 text-slate-700 rounded-md text-sm font-medium">
           AI-Powered
         </span>
-        <span className="px-4 py-2 bg-cyan-100 text-cyan-700 rounded-full text-sm font-medium">
+        <span className="px-4 py-2 border border-slate-200 text-slate-700 rounded-md text-sm font-medium">
           ATS-Optimized
         </span>
-        <span className="px-4 py-2 bg-teal-100 text-teal-700 rounded-full text-sm font-medium">
+        <span className="px-4 py-2 border border-slate-200 text-slate-700 rounded-md text-sm font-medium">
           100% Free
         </span>
       </div>
@@ -48,25 +48,25 @@ function Landing() {
       {/* Main Heading */}
       <div className="text-center mb-6">
         <h1 className="text-6xl md:text-7xl font-bold mb-2">
-          <span className="text-purple-600">The Resume Builder</span>
+          <span className="text-slate-900">The Resume Builder</span>
         </h1>
         <h1 className="text-6xl md:text-7xl font-bold">
-          <span className="text-cyan-600">That Gets You Hired</span>
+          <span className="text-slate-900">That Gets You Hired</span>
         </h1>
       </div>
 
       {/* Subheading */}
-      <p className="text-gray-600 text-lg md:text-xl text-center max-w-2xl mb-16">
+      <p className="text-slate-600 text-lg md:text-xl text-center max-w-2xl mb-16">
         Smart AI tools that optimize your resume for each job, increasing your
         <br />
-        interview chances by up to <span className="font-semibold text-gray-800">3x</span>
+        interview chances by up to <span className="font-semibold text-slate-900">3x</span>
       </p>
 
       {/* Decorative Lines */}
       <div className="flex gap-3 items-center">
-        <div className="w-12 h-1 bg-purple-500 rounded-full"></div>
-        <div className="w-12 h-1 bg-cyan-500 rounded-full"></div>
-        <div className="w-12 h-1 bg-pink-500 rounded-full"></div>
+        <div className="w-12 h-1 bg-slate-300 rounded-full"></div>
+        <div className="w-12 h-1 bg-slate-400 rounded-full"></div>
+        <div className="w-12 h-1 bg-slate-300 rounded-full"></div>
       </div>
 
       <SplitPane 
